@@ -18,7 +18,7 @@ Queue *createQueue(){
   return queue;
 }
 
-Node *create_node(void *contents){
+Node *createNode(void *contents){
 	Node *node = malloc(sizeof(Node));
 	node->contents = contents;
 	node->next = NULL;
@@ -26,7 +26,7 @@ Node *create_node(void *contents){
 }
 
 void enqueue(Queue *queue, void *contents){
-	Node *node = create_node(contents);
+	Node *node = createNode(contents);
 	if (queue->size == 0){
 		queue->front = node;
 		queue->back = node;
