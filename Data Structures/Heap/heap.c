@@ -19,7 +19,7 @@ struct Heap_S{
 };
 
 
-#include "HeapADT.h"
+#include "heap.h"
 
 
 /// createHeap constructs an empty heap.
