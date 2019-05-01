@@ -1,5 +1,5 @@
 // This file is under git.
-// HeapADT.c implements the interface to a Heap Data Type.
+// heap.c implements the interface to a Heap Data Type.
 // @author bks: Prionti Nasir, pdn3628@rit.edu
 // 
 // // // // // // // // // // // // // // // // // // // // // // // // 
